@@ -1,4 +1,17 @@
 theme: minima
-gems:
-  - jekyll-layouts
-skin: solarized-light
+minima:
+  skin: solarized-light
+title: Moins c'est mieux
+author:
+  name: Sandrine et Jérôme
+  email: mcm@gmail.com
+description: >
+  Projet de couple vers une vie plus proche de nos aspirations !
+header_pages:
+  - projet.md
+  - autonomie.md
+  - lieu.md
+  - aide.md
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
